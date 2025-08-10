@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import AdminOnly from '../../../../components/AdminOnly';
+import AdminOnly from '../../../components/AdminOnly';
 
 export default function AdminDashboard() {
   const [products, setProducts] = useState([]);
