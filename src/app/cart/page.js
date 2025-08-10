@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useGeo } from '../components/GeoContext';
+import { useGeo } from '../../components/GeoContext';
 
 export default function Cart() {
   const [cart, setCart] = useState([]);
@@ -210,4 +210,5 @@ export default function Cart() {
     </div>
   );
 }
+
 

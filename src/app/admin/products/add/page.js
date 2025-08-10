@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import AdminOnly from '../../../components/AdminOnly';
+import AdminOnly from '../../../../components/AdminOnly';
 
 export default function AddProduct() {
   const [formData, setFormData] = useState({
@@ -316,4 +316,5 @@ export default function AddProduct() {
     </AdminOnly>
   );
 }
+
 
