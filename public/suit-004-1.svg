@@ -1,0 +1,8 @@
+<svg width="400" height="500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="500" fill="#f3f4f6"/>
+  <rect x="100" y="100" width="200" height="300" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="120" y="120" width="160" height="80" fill="#e5e7eb"/>
+  <rect x="120" y="220" width="160" height="160" fill="#e5e7eb"/>
+  <text x="200" y="50" text-anchor="middle" font-family="Arial" font-size="16" fill="#374151">Light Grey Summer Suit</text>
+  <text x="200" y="450" text-anchor="middle" font-family="Arial" font-size="14" fill="#6b7280">Summer Collection</text>
+</svg>

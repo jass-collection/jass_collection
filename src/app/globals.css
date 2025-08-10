@@ -1,0 +1,76 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Custom styles for product images and videos */
+.product-image {
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+}
+
+/* Product card image container */
+.product-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Ensure consistent aspect ratio for product cards */
+.product-card-container {
+  aspect-ratio: 3/4;
+  overflow: hidden;
+}
+
+.video-player {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Custom button styles */
+.btn-primary {
+  @apply bg-primary-600 text-white px-4 py-2 rounded-md hover:bg-primary-700 transition-colors duration-200 font-medium;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 text-gray-800 px-4 py-2 rounded-md hover:bg-gray-300 transition-colors duration-200 font-medium;
+}
+
+.input-field {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent;
+}
+
+/* Image gallery navigation dots */
+.gallery-dot {
+  @apply w-2 h-2 rounded-full transition-all duration-200;
+}
+
+.gallery-dot.active {
+  @apply bg-white;
+}
+
+.gallery-dot.inactive {
+  @apply bg-white bg-opacity-50;
+}

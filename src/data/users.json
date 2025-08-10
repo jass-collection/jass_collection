@@ -1,0 +1,26 @@
+[
+  {
+    "id": "admin-1",
+    "email": "admin@jasscollection.test",
+    "name": "Site Admin",
+    "role": "admin",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "customer-1",
+    "email": "customer@test.com",
+    "name": "Test Customer",
+    "role": "customer",
+    "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "user-1754794291009-jk3bicy0i",
+    "name": "jovu",
+    "email": "jovu@gmail.com",
+    "password": "$2a$10$P3hgXJqpLCtJzFzU0NvGk.7dCuB4izbhw5d6PpchiyUGtc.ySDmCa",
+    "role": "customer",
+    "createdAt": "2025-08-10T02:51:31.009Z"
+  }
+]

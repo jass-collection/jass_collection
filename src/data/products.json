@@ -1,0 +1,87 @@
+[
+  {
+    "id": "suit-001",
+    "title": "Royal Navy Tailored Suit",
+    "description": "Hand-stitched navy suit with silk lining — premium designer fit.",
+    "price_in_inr": 45000,
+    "price_in_usd": 550,
+    "price_in_gbp": 430,
+    "price_in_cad": 740,
+    "images": ["/suit-001-1.jpg", "/suit-001-2.jpg", "/suit-001-3.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["38", "40", "42", "44"],
+    "stock": 10,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  },
+  {
+    "id": "suit-002",
+    "title": "Charcoal Executive Suit",
+    "description": "Modern charcoal grey suit with perfect tailoring for business professionals.",
+    "price_in_inr": 52000,
+    "price_in_usd": 635,
+    "price_in_gbp": 495,
+    "price_in_cad": 855,
+    "images": ["/suit-002-1.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["36", "38", "40", "42", "44", "46"],
+    "stock": 8,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  },
+  {
+    "id": "suit-003",
+    "title": "Midnight Black Tuxedo",
+    "description": "Elegant black tuxedo with satin lapels — perfect for formal events.",
+    "price_in_inr": 68000,
+    "price_in_usd": 830,
+    "price_in_gbp": 650,
+    "price_in_cad": 1120,
+    "images": ["/suit-003-1.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["38", "40", "42", "44"],
+    "stock": 5,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  },
+  {
+    "id": "suit-004",
+    "title": "Light Grey Summer Suit",
+    "description": "Breathable light grey suit with modern cut — ideal for summer occasions.",
+    "price_in_inr": 38000,
+    "price_in_usd": 465,
+    "price_in_gbp": 365,
+    "price_in_cad": 625,
+    "images": ["/suit-004-1.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["36", "38", "40", "42", "44"],
+    "stock": 12,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  },
+  {
+    "id": "suit-005",
+    "title": "Burgundy Wedding Suit",
+    "description": "Rich burgundy suit with gold accents — premium choice for weddings.",
+    "price_in_inr": 75000,
+    "price_in_usd": 915,
+    "price_in_gbp": 715,
+    "price_in_cad": 1235,
+    "images": ["/suit-005-1.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["38", "40", "42", "44", "46"],
+    "stock": 6,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  },
+  {
+    "id": "suit-006",
+    "title": "Classic Brown Tweed",
+    "description": "Traditional brown tweed suit with vintage styling — timeless elegance.",
+    "price_in_inr": 42000,
+    "price_in_usd": 515,
+    "price_in_gbp": 405,
+    "price_in_cad": 695,
+    "images": ["/suit-006-1.jpg"],
+    "videos": ["/suit-001-video.mp4"],
+    "sizes": ["38", "40", "42", "44"],
+    "stock": 9,
+    "countryAvailability": ["IN", "UK", "CA", "US"]
+  }
+]
+
